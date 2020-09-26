@@ -3,8 +3,6 @@ package pkger
 import (
 	"os"
 	"sort"
-
-	"github.com/markbates/pkger"
 )
 
 // ReadDir reads the directory named by dirname and returns
