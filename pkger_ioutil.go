@@ -8,7 +8,7 @@ import (
 // ReadDir reads the directory named by dirname and returns
 // a list of directory entries sorted by filename.
 func ReadDir(dirname string) ([]os.FileInfo, error) {
-	f, err := pkger.Open(dirname)
+	f, err := Open(dirname)
 	if err != nil {
 		return nil, err
 	}
