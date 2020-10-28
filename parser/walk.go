@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/markbates/pkger/here"
+	"github.com/WuErPing/pkger/here"
 )
 
 var _ Decl = WalkDecl{}

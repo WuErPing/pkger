@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/markbates/pkger/here"
-	"github.com/markbates/pkger/pkging"
+	"github.com/WuErPing/pkger/here"
+	"github.com/WuErPing/pkger/pkging"
 )
 
 var _ pkging.Adder = &Pkger{}

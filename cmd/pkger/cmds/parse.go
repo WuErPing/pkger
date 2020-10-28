@@ -5,8 +5,8 @@ import (
 	"flag"
 	"os"
 
-	"github.com/markbates/pkger/here"
-	"github.com/markbates/pkger/parser"
+	"github.com/WuErPing/pkger/here"
+	"github.com/WuErPing/pkger/parser"
 )
 
 type parseCmd struct {

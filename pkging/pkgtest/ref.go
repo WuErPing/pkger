@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/markbates/pkger/here"
+	"github.com/WuErPing/pkger/here"
 )
 
 type Ref struct {
@@ -17,7 +17,7 @@ type Ref struct {
 }
 
 func NewRef() (*Ref, error) {
-	her, err := here.Package("github.com/markbates/pkger")
+	her, err := here.Package("github.com/WuErPing/pkger")
 	if err != nil {
 		return nil, err
 	}

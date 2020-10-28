@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/markbates/pkger/here"
+	"github.com/WuErPing/pkger/here"
 )
 
 type Pkger interface {

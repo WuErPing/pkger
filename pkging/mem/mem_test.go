@@ -3,9 +3,9 @@ package mem_test
 import (
 	"testing"
 
-	"github.com/markbates/pkger/pkging"
-	"github.com/markbates/pkger/pkging/mem"
-	"github.com/markbates/pkger/pkging/pkgtest"
+	"github.com/WuErPing/pkger/pkging"
+	"github.com/WuErPing/pkger/pkging/mem"
+	"github.com/WuErPing/pkger/pkging/pkgtest"
 )
 
 func Test_Pkger(t *testing.T) {

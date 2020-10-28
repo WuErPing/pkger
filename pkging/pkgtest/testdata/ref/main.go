@@ -8,7 +8,7 @@ import (
 
 	"app/actions"
 
-	"github.com/markbates/pkger"
+	"github.com/WuErPing/pkger"
 )
 
 func main() {
